@@ -1,0 +1,17 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+#pause {
+	text-align: center;
+}
+
+#grad1 {
+  background: red; /* For browsers that do not support gradients */
+  background: -moz-linear-gradient(bottom right, green, yellow); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, black,blue,pink,yellow); /* Standard syntax */
+}
