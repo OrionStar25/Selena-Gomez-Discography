@@ -20,8 +20,8 @@ To contribute to the project:
 
 To send a PR, follow these rules carefully,**otherwise your PR will be closed**:
 
-1. Make PR title in this format: #IssueNo : Small description
-2. Send a working link of your fork where your changes can be seen. The link will be something like this: https://yourusername.github.io/Selena-Gomez-Discography/
+1. Make PR title in this format: `Fixes #IssueNo : Name of Issue`
+2. Send a working (live) link of your deployed fork where your changes can be seen. The link will be something like this: https://yourusername.github.io/Selena-Gomez-Discography/
 
 
  For any doubts related to the issues, i.e., to understand the issue better etc, comment down your queries on the respective issue. If you ever get stuck, need any help, post your queries in the [Slack channel](https://opencodeiiita.slack.com/messages/CFBEJSQJU/) and we shall help you get through! 
