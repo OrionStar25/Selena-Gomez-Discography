@@ -57,3 +57,26 @@ footer {
     width: 50%; /* 6 columns */
   }
 }
+@media screen and (max-width: 995px){
+  #float-none{
+    width: 100%;
+  }
+  #float-none1{
+    width: 70%;
+  }
+  #float-none2{
+    width: 30%;
+  }
+}
+@media screen and (max-width: 767px) {
+  #float-none1{
+  width: 100%;
+  }
+  .audio{
+    width: 100%;
+  }
+}
+.audio{
+  width: 100%;
+  border-radius: 0px;
+}
