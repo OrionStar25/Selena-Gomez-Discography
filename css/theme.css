@@ -57,3 +57,76 @@ body {
 .theme-showcase .navbar .container {
   width: auto;
 }
+
+
+/*Grid Layout of Album*/
+
+.album{
+    height: 350px;
+    width: 275px;
+}
+.album p img{
+    height: 200px;
+    width: 240px
+}
+.album:nth-child(6) p img{
+    margin-top: 30px
+}
+
+/*Media Query for reponsive and stable layout*/
+@media screen and (max-width: 1200px){
+    .album {
+        height: 450px;
+        width: 340px
+    }
+    .album p img{
+    height: 260px;
+    width: 300px
+    }
+    .album:nth-child(3) p img{
+    margin-top: 35px
+    }
+    .album:nth-child(6) p img{
+    margin-top: 0px
+    }
+}
+
+
+
+@media screen and (max-width: 995px){
+    .album {
+        height: 350px;
+        width: 275px
+    }
+    .album p img{
+    height: 200px;
+    width: 240px
+    }
+    .album:nth-child(6) p img{
+    margin-top: 30px
+    }
+}
+
+@media screen and (max-width: 760px){
+    .album {
+        height: 350px;
+        width: 40vw
+    }
+    .album p img{
+    height: 200px;
+    width: 35vw
+    }
+}
+
+@media screen and (max-width: 600px){
+    .album {
+        height: 77vw;
+        width: 70vw;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .album p img{
+    height: 40vw;
+    width: 63vw
+    }
+}
