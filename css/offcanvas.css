@@ -35,7 +35,10 @@ footer {
 
   .row-offcanvas-right
   .sidebar-offcanvas {
-    right: -50%; /* 6 columns */
+    /* right: -50%; 6 columns */
+    right: 0px;
+    margin-top: 2020px;
+    margin-right: 50%;
   }
 
   .row-offcanvas-left
@@ -68,15 +71,19 @@ footer {
     width: 30%;
   }
 }
-@media screen and (max-width: 767px) {
-  #float-none1{
+@media screen and (max-width: 765px) {
+  /* #float-none1{
   width: 100%;
   }
-  .audio{
+  float-none2{
+    width: 50%;
+  } */
+  /* .audio-responsive{
     width: 100%;
-  }
+    margin-left: -20vw;
+
+  } */
 }
 .audio{
   width: 100%;
-  border-radius: 0px;
 }
