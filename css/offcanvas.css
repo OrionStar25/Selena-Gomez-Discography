@@ -35,9 +35,8 @@ footer {
 
   .row-offcanvas-right
   .sidebar-offcanvas {
-    /* right: -50%; 6 columns */
     right: 0px;
-    margin-top: 2020px;
+    margin-top: 2180px;
     margin-right: 50%;
   }
 
@@ -71,19 +70,13 @@ footer {
     width: 30%;
   }
 }
-@media screen and (max-width: 765px) {
-  /* #float-none1{
+#audio{
   width: 100%;
-  }
-  float-none2{
-    width: 50%;
-  } */
-  /* .audio-responsive{
-    width: 100%;
-    margin-left: -20vw;
-
-  } */
 }
-.audio{
-  width: 100%;
+@media screen and (max-width: 600px) {
+  .row-offcanvas-right
+  .sidebar-offcanvas{
+    margin-top: 480vw;
+    margin-right: 50%;
+  }
 }
