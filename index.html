@@ -365,5 +365,15 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="ie10-viewport-bug-workaround.js"></script>
     <script src="offcanvas.js"></script>
+    <script>
+		  document.addEventListener('play', function(e){
+			var audios = document.getElementsByTagName('audio');
+			for(var i = 0, len = audios.length; i < len;i++){
+				if(audios[i] != e.target){
+				audios[i].pause();
+			    }
+			}
+	           }, true);
+	</script>
   </body>
 </html>
