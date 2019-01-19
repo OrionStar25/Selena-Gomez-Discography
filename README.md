@@ -18,6 +18,10 @@ To contribute to the project:
 3. Make changes to your fork and send a PR.
 4. Get reviewed, and earn points!
 
+To create a PR:
+
+Follow the given link to make a successful and valid PR: https://help.github.com/articles/creating-a-pull-request/
+
 To send a PR, follow these rules carefully,**otherwise your PR will be closed**:
 
 1. Make PR title in this format: `Fixes #IssueNo : Name of Issue`
