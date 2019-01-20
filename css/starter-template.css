@@ -4,14 +4,19 @@ body {
 .starter-template {
   padding: 40px 15px;
   text-align: center;
+    font-family: cursive;
 }
 
 #pause {
 	text-align: center;
+    font-size: 20px;
+    font-family: cursive;
 }
 
 #grad1 {
-  background: red; /* For browsers that do not support gradients */
-  background: -moz-linear-gradient(bottom right, green, yellow); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to bottom right, black,blue,pink,yellow); /* Standard syntax */
+  background: #F2FFB7;
+}
+
+img{
+    border-radius: 20px;
 }
