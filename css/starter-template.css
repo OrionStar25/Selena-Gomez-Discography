@@ -4,7 +4,16 @@ body {
 .starter-template {
   padding: 40px 15px;
   text-align: center;
+  color:#cdcdcd;
 }
+
+h1,h2,h3{
+  color:#a8c7f9;
+}
+/* 
+h1>i,h2>i,h3>i{
+  color:#bcbcbc;
+} */
 
 #pause {
 	text-align: center;
