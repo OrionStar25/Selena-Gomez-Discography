@@ -66,8 +66,8 @@ body {
 }
 /*To make the movie tiles round*/
 .roundmovietiles{
-    height:2200px;
-    width:22px;
+    height:220px;
+    width:220px;
     border-radius:50%;
    }
 
