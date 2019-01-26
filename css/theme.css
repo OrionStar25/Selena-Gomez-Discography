@@ -64,6 +64,12 @@ body {
 .theme-showcase .navbar .container {
   width: auto;
 }
+/*To make the movie tiles round*/
+.roundmovietiles{
+    height:2200px;
+    width:22px;
+    border-radius:50%;
+   }
 
 
 /*Grid Layout of Album*/
