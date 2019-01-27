@@ -67,13 +67,13 @@ footer {
    
 }
 @media screen and (max-width: 995px){
-  #float-none{
+  .float-none{
     width: 100%;
   }
-  #float-none1{
+  .float-none1{
     width: 70%;
   }
-  #float-none2{
+  .float-none2{
     width: 30%;
   }
 }
