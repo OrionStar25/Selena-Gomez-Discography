@@ -65,6 +65,13 @@ body {
   width: auto;
 }
 
+/*To make the movie tiles round*/
+.roundmovietiles{
+    height:220px;
+    width:220px;
+    border-radius:50%;
+   }
+
 
 /*Grid Layout of Album*/
 
