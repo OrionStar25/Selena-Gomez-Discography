@@ -13,6 +13,17 @@ body {
     padding: 3px;
 }
 
+/* Styling Movie tiles */
+.title:hover {
+    border-top: 2px solid rgba(199, 15, 168, 0.774);
+    border-bottom: 12px solid rgba(199, 15, 168, 0.774);
+    border-right: 4px solid rgba(199, 15, 168, 0.719);
+    border-left: 4px solid rgba(199, 15, 168, 0.774);
+    border-radius: 40px;
+    background-color: rgba(0, 0, 0, 0.425);
+    box-shadow: 0 0 6px rgba(0,0,0, 1.5);
+}
+
  /* Dropdown Button */
 .dropbtn {
     background-color: black;
