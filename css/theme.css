@@ -19,6 +19,7 @@ body {
     height: 172px;
     width: 200px;
     overflow: hidden;
+    z-index: 2;
 }
 
 /* Dropdown Content (Hidden by Default) */
