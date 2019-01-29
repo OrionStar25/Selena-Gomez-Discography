@@ -3,6 +3,16 @@ body {
   padding-bottom: 30px;
 }
 
+/* Border for all image tags */
+.border {
+    border-left: 8px groove rgba(82, 194, 54, 0.774);
+    border-right: 8px groove rgba(82, 194, 54, 0.774);
+    border-top: 2px solid rgba(82, 194, 54, 0.774);
+    border-bottom: 2px solid rgba(82, 194, 54, 0.774);
+    border-radius: 20px;
+    padding: 3px;
+}
+
  /* Dropdown Button */
 .dropbtn {
     background-color: black;
