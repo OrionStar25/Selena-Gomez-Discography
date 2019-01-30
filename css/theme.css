@@ -1,7 +1,4 @@
-body {
-  padding-top: 70px;
-  padding-bottom: 30px;
-}
+
 
  /* Dropdown Button */
 .dropbtn {
@@ -64,6 +61,13 @@ body {
 .theme-showcase .navbar .container {
   width: auto;
 }
+
+/*To make the movie tiles round*/
+.roundmovietiles{
+    height:220px;
+    width:220px;
+    border-radius:50%;
+   }
 
 
 /*Grid Layout of Album*/
