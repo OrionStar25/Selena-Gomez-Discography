@@ -126,6 +126,31 @@
     }
 }
 
+.mobile
+{
+    display:block;
+}
+.desktop
+{
+    display:none;
+}
+
+
+@media only screen and (min-width: 767px)
+{
+
+    .mobile
+    {
+        display:none;
+    }
+    .desktop
+    {
+        display:block;
+    }
+
+}
+
+
 @media screen and (max-width: 760px){
     .album {
         height: 350px;
