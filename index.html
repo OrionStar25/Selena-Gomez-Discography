@@ -39,18 +39,69 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
+  <style>
+     .dropbtn1 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content1 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content1 a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown1:hover .dropdown-content1 {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown1:hover .dropbtn1 {background-color: #3e8e41;}
+	  
+  </style>
 
   <body id="grad1">
 
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
+          	<div class="dropdown1">
+				<button type="button dropdbtn1" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<div class="dropdown-content1">
+						<a href="https://www.selenagomez.com/">Know More ♫</a>
+						<a href="https://orionstar25.github.io/">Creator ★</a>
+						
+					  </div>
+				  </button>
+				
+			  </div>
           <a class="navbar-brand" href="index.html">Welcome to the tapes! </a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
