@@ -39,80 +39,33 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <style>
-     .dropbtn1 {
-  background-color: #4CAF50;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown1 {
-  position: relative;
-  display: inline-block;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content1 {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content1 a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content1 a:hover {background-color: #ddd;}
-
-/* Show the dropdown menu on hover */
-.dropdown1:hover .dropdown-content1 {display: block;}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown1:hover .dropbtn1 {background-color: #3e8e41;}
-	  
-  </style>
+ 
 
   <body id="grad1">
 
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-          	<div class="dropdown1">
-				<button type="button dropdbtn1" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<div class="dropdown-content1">
-						<a href="https://www.selenagomez.com/">Know More ♫</a>
-						<a href="https://orionstar25.github.io/">Creator ★</a>
-						
-					  </div>
-				  </button>
-				
-			  </div>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
           <a class="navbar-brand" href="index.html">Welcome to the tapes! </a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <!-- <li class="active"><a href="#">Home</a></li> -->
-            <li><a href="https://www.selenagomez.com/">Know More ♫</a></li>
-            <li><a href="https://orionstar25.github.io/">Creator ★ </a></li>
+            <li class="nav-item">
+       <a class="nav-link" href="https://www.selenagomez.com/">Know More ♫</a>
+       </li>
+     <li class="nav-item">
+     	<a class="nav-link" href="https://orionstar25.github.io/">Creator ★ </a>
+     </li>
           </ul>
         </div><!--/.nav-collapse -->
-      </div>
-    </nav>
+      </div
 
     <div class="container">
 
@@ -561,12 +514,12 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="jquery.min.js"><\/script>')</script>
-    <script src="bootstrap.min.js"></script>
-     <script src="docs.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+     <script src="js/docs.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="ie10-viewport-bug-workaround.js"></script>
-    <script src="offcanvas.js"></script>
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/offcanvas.js"></script>
     <script>
 		  document.addEventListener('play', function(e){
 			var audios = document.getElementsByTagName('audio');
