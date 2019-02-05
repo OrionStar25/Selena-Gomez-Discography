@@ -165,3 +165,26 @@
         left:55%;
     }
 }
+
+@media screen and (max-width: 400px){
+    .moviesize .roundmovietiles {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+
+    }
+    .moviesize h3{
+        font-size: 1.10em;
+    }
+    .moviesize h1{
+        font-size: 1.3em;
+    }
+    .singlesize{
+        position:relative;
+        left:65%;
+    }
+    .dropbtn{
+        padding:6px;
+        font-size:13px;
+    }
+}
