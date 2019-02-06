@@ -72,8 +72,6 @@
     width:220px;
     border-radius:50%;
    }
-
-
 /*Grid Layout of Album*/
 
 .album{
@@ -122,7 +120,7 @@
     }
 }
 
-@media screen and (max-width: 760px){
+@media screen and (max-width: 770px){
     .album {
         height: 350px;
         width: 40vw
@@ -130,6 +128,19 @@
     .album p img{
     height: 200px;
     width: 35vw
+    }
+    .moviesize .roundmovietiles {
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+
+    }
+    .moviesize h3{
+        font-size: 1.14em;
+    }
+    .singlesize{
+        position:relative;
+        left:75%;
     }
 }
 
@@ -143,5 +154,41 @@
     .album p img{
     height: 40vw;
     width: 63vw
+    }
+    .moviesize .roundmovietiles {
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+
+    }
+    .moviesize h3{
+        font-size: 1.12em;
+    }
+    .singlesize{
+        position:relative;
+        left:55%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .moviesize .roundmovietiles {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+
+    }
+    .moviesize h3{
+        font-size: 1.10em;
+    }
+    .moviesize h1{
+        font-size: 1.3em;
+    }
+    .singlesize{
+        position:relative;
+        left:65%;
+    }
+    .dropbtn{
+        padding:6px;
+        font-size:13px;
     }
 }
