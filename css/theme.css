@@ -141,6 +141,7 @@
     .singlesize{
         position:relative;
         left:75%;
+        z-index: 1;
     }
 }
 
@@ -167,6 +168,7 @@
     .singlesize{
         position:relative;
         left:55%;
+        z-index: 1;
     }
 }
 
@@ -175,7 +177,6 @@
         width: 100px;
         height: 100px;
         border-radius: 50%;
-
     }
     .moviesize h3{
         font-size: 1.10em;
@@ -186,6 +187,7 @@
     .singlesize{
         position:relative;
         left:65%;
+        z-index: 1;
     }
     .dropbtn{
         padding:6px;
