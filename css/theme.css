@@ -75,8 +75,8 @@
 /*Grid Layout of Album*/
 
 .album{
-    height: 350px;
-    width: 275px;
+    height: 300px;
+    width: 150px;
 }
 .album p img{
     height: 200px;
